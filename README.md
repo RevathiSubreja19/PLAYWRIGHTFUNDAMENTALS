@@ -1,42 +1,54 @@
+
 # Playwright Fundamentals
 
-This repository contains Playwright test examples and exercises for learning Playwright with TypeScript.
+A collection of Playwright TypeScript examples and lab exercises for learning Playwright end-to-end testing.
 
-## Quick Start
+## Quick start
 
-1. Install dependencies:
+- Install dependencies:
 
 ```bash
 npm install
 ```
 
-2. Install Playwright browsers (if not already installed):
+- Install Playwright browsers (first time only):
 
 ```bash
 npx playwright install
 ```
 
-3. Run tests:
+- Run the test suite:
 
 ```bash
 npx playwright test
 ```
 
-4. Open the HTML report after a run:
+- Show the HTML report:
 
 ```bash
 npx playwright show-report
 ```
 
+## Useful npm scripts
+
+- `npm test` — alias for `npx playwright test`
+- `npm run test:headed` — run tests in headed mode (if configured)
+
 ## Project structure
 
-- `tests/` — test specs and example labs
+- `tests/` — test specs and lab exercises (see `tests/01_Basics`)
 - `playwright.config.ts` — Playwright configuration
 - `package.json` — scripts and dependencies
 
-## Notes
+## Running locally (Windows)
 
-This repository is intended for learning and experimentation. Feel free to run tests and inspect `tests/01_Basics` for lab exercises.
+1. Open PowerShell in the project root.
+2. Run `npm install` and `npx playwright install`.
+3. Run `npx playwright test` to execute tests.
+
+## Contributing
+
+Feel free to add new lab exercises or improve existing tests. Open a PR with clear descriptions of changes.
 
 ---
 
