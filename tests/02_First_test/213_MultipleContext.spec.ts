@@ -6,7 +6,7 @@ async function multiuserTest()
 
 
 //ADMIN
-let adminContext = await browser.newContext();
+let adminContext: BrowserContext = await browser.newContext();
 let adminPage: Page = await adminContext.newPage();
 await adminPage.goto('https://app.vwo.com');
 console.log("Admin launched");
