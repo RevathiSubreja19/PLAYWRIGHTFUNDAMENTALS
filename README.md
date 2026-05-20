@@ -53,3 +53,7 @@ Feel free to add new lab exercises or improve existing tests. Open a PR with cle
 ---
 
 Repository: https://github.com/RevathiSubreja19/PLAYWRIGHTFUNDAMENTALS
+
+## Changelog
+
+- 2026-05-20: Updated README and committed/pushed recent test and report changes.
